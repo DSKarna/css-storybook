@@ -72,4 +72,6 @@ body {
 
 .left-image img, .right-image img {
     margin: 0 20px;
+    max-width: 50%; /* This will ensure the image doesn't exceed half the width of its container */
+    height: auto; /* This will maintain the aspect ratio of the image */
 }
